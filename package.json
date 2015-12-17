@@ -1,0 +1,42 @@
+{
+  "name": "dropzone",
+  "version": "0.0.1",
+  "readme": "README.md",
+  "description": "Command line utility to access Drop Zone",
+  "main": "index.js",
+  "bin": {
+    "dropzone": "bin/dropzone"
+  },
+  "scripts": {
+    "postinstall": "sh scripts/postinstall.sh",
+    "standard": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aynik/dropzone.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "p2p",
+    "market",
+    "buy",
+    "sell",
+    "drop",
+    "cli"
+  ],
+  "author": "aynik",
+  "bugs": {
+    "url": "https://github.com/aynik/dropzone/issues"
+  },
+  "homepage": "https://github.com/aynik/dropzone.git",
+  "dependencies": {
+    "async": "^1.4.2",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "commander": "=2.8.1",
+    "wordwrap": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.0.0"
+  }
+}
